@@ -4,3 +4,4 @@ raylib_demo_rs/target
 
 # Manually added
 *.exe
+*.out
