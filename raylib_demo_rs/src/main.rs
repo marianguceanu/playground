@@ -22,7 +22,7 @@ unsafe extern "C" {
 fn main() {
 
     let title = CString::new("Rust + raylib").unwrap();
-    let text = CString::new("Hello, world!").unwrap();
+    let text = CString::new("Hello, world! From Rust this time").unwrap();
     const BLACK:Color = Color { r: 0, g: 0, b: 0, a: 255 };
 
 
