@@ -1,6 +1,6 @@
 # Added by cargo
 
-./raylib_demo_rs/target
+raylib_demo_rs/target
 
 # Manually added
 *.exe
