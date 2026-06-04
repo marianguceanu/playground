@@ -4,13 +4,3 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-
-[build]
-rustflags = [
-    "-L", "C:/raylib/w64devkit/lib",
-    # "-L", "C:/MinGW/lib/gcc/mingw32/6.3.0",
-]
-[target.i686-pc-windows-gnu]
-rustflags=["-Clink-self-contained=yes"]
-[target.x86_64-pc-windows-gnu]
-rustflags=["-Clink-self-contained=yes"]

@@ -2,19 +2,14 @@
 
 int main(void)
 {
-    InitWindow(800, 450, "Hello");
-
-    while (!WindowShouldClose())
-    {
-        BeginDrawing();
-
-        ClearBackground(RAYWHITE);
-        DrawText("Hello World!", 190, 200, 20, LIGHTGRAY);
-
-        EndDrawing();
-    }
-
-    CloseWindow();
-
-    return 0;
+	InitWindow(800, 450, "Hello");
+    	while (!WindowShouldClose())
+    	{
+        	BeginDrawing();
+        		ClearBackground(RAYWHITE);
+        		DrawText("Hello World!", 190, 200, 20, BLACK);
+        	EndDrawing();
+    	}
+    	CloseWindow();
+    	return 0;
 }
