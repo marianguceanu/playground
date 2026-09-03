@@ -1,0 +1,5 @@
+warning: unused manifest key: build
+help: build is a valid .cargo/config.toml key
+warning: unused manifest key: target.i686-pc-windows-gnu.rustflags
+warning: unused manifest key: target.x86_64-pc-windows-gnu.rustflags
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.00s
